@@ -14,4 +14,14 @@ let db = new Client({
 
 db.connect();
 
-module.exports = db;
+// import pg from 'pg'
+// const { Client } = pg
+
+// const client = new Client({
+//     user: 'database-user',
+//     password: 'secretpassword!!',
+//     host: 'my.database-server.com',
+//     port: 3000,
+//     database: 'database-name',
+
+// })module.exports = db;
